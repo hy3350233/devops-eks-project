@@ -53,6 +53,7 @@ kubectl port-forward svc/argocd-server \
 
 ## Connect ArgoCD to GitHub 
 kubectl apply -f argocd/application.yaml
+
 kubectl get applications -n argocd
 
 ## Monitoring Stack
